@@ -86,11 +86,3 @@ landing_page_html = """
 
 </body>
 </html>
-"""
-
-# Guardar el HTML en un archivo
-file_path = "/mnt/data/landing_tarjeta_fiesta.html"
-with open(file_path, "w", encoding="utf-8") as f:
-    f.write(landing_page_html)
-
-file_path
